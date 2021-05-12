@@ -20,6 +20,11 @@ Page({
     })
   },
 
+  handleTap(e){
+    
+    },
+
+
   /**
    * Lifecycle function--Called when page load
    */
