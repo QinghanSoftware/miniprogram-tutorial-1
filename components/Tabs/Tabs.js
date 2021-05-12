@@ -44,5 +44,9 @@ Component({
    */
   methods: {
 
+    handleItemTap(e){
+      console.log(e);
+    },
+
   }
 })
