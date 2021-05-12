@@ -21,6 +21,18 @@ Page({
   },
 
   handleTap(e){
+    console.log(e) ; // 打印事件对象，寻找 data-operation
+    console.log(e.currentTarget.dataset.operation) ;// 获取到设置的 data-operation 属性
+
+    const operation = e.currentTarget.dataset.operation;
+
+    // console.log(operation)
+
+    this.setData({
+      num: this.data.num + operation
+    });
+
+    console.log(this.data.num);
     
     },
 

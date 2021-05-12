@@ -1,15 +1,15 @@
 <!--pages/demo04/demo04.wxml-->
-<view>input：</view>
+<!-- <view>input：</view>
 
 <input type="text" bindinput="handleInput"/>
 <view>  
-  -----
-</view>
+  ----- -->
+<!-- </view> -->
 
 <view> 
-Var Num: {{num}}
+Var  $Num : {{num}}
 </view>
 
-<button bindtap="handleTap">+</button>
-<button bindtap="handleTap">-</button>
+<button bindtap="handleTap" data-operation="{{1}}">+</button>
+<button bindtap="handleTap" data-operation="{{-1}}">-</button>
 
