@@ -1,15 +1,6 @@
 {
   "pages":[
-    "pages/demo/index",
-    "pages/demo/demo1",
-    "pages/demo/demo2",
-    "pages/demo/demo3",
-    "pages/demo/CloudChange",
-
-
-
-
-
+    "pages/demo03/demo03",
     "pages/index/index",
     "pages/logs/logs"
   ],

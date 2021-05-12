@@ -1,0 +1,14 @@
+<!--pages/demo03/demo03.wxml-->
+<text>pages/demo03/demo03.wxml</text>
+
+<view>hellow wx:for</view>
+<view>
+{{list[0].message}}
+</view>
+
+<view wx:for="{{list}}">
+{{index}}
+Name: {{item.name}}
+Age: {{item.age}}
+</view>
+
