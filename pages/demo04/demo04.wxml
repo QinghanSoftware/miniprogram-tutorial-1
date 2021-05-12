@@ -1,7 +1,7 @@
 <!--pages/demo04/demo04.wxml-->
 <view>input：</view>
 
-<input type="text"/>
+<input type="text" bindinput="handleInput"  />
 
 <view>  
   -----

@@ -6,9 +6,13 @@ Page({
    */
   data: {
     num:0
+  },
 
+  handleInput(e){
+    // console.log(e)   打印获取的对象，从中找到input 的值。
+    // 即e.detail.value
 
-
+    console.log(e.detail.value)    
 
   },
 
