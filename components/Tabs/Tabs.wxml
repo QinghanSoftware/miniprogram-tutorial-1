@@ -15,7 +15,7 @@
     <view 
     wx:for="{{tabs}}"
     wx:key="id"
-    class="title_item"
+    class="title_item {{item.isActive?'active':''}}"
     >
     {{item.name}}
     </view>
