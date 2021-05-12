@@ -1,12 +1,11 @@
 <!--pages/demo04/demo04.wxml-->
 <view>input：</view>
 
-<input type="text" bindinput="handleInput"  />
-
+<input type="text" bindinput="handleInput"/>
 <view>  
   -----
 </view>
 
 <view> 
-{{num}}
+Var Num: {{num}}
 </view>
