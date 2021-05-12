@@ -1,0 +1,12 @@
+<!--pages/demo04/demo04.wxml-->
+<view>input：</view>
+
+<input type="text"/>
+
+<view>  
+  -----
+</view>
+
+<view> 
+{{num}}
+</view>
