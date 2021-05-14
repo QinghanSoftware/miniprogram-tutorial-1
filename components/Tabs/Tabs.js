@@ -5,6 +5,13 @@ Component({
    */
   properties: {
 
+    aaa:{
+      type:String,
+      value:'',
+
+    }
+
+
   },
 
   /**
