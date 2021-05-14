@@ -1,5 +1,6 @@
 <text>components/Tabs/Tabs.wxml</text>
 <view>{{aaa}}</view>
+<view>{{tabs}}</view>
 
 <view class="tabs">
   <view class="tabs_title">

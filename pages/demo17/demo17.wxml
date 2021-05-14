@@ -1,5 +1,8 @@
 <!--pages/demo17/demo17.wxml-->
 
-<Tabs aaa = "var aaa value 1233321">
+<Tabs aaa = "var aaa value 1233321"
+tabs="{{tabs}}"
+
+>
 
 </Tabs>
