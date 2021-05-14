@@ -56,12 +56,9 @@ Component({
 
       tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
 
-      tabs.forEach(v => { 
-        console.log(v.isActive)        
-      });
-
-      console.log(tabs)
-      console.log(this.data.tabs)
+      this.setData({
+        tabs
+      })  
 
     },
 
