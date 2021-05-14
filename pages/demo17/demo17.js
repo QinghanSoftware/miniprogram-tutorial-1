@@ -32,7 +32,22 @@ Page({
   },
 
   handleItemChange(e){
-    console.log(e)
+    // console.log(e) 
+    // 在里面寻找index存放的位置
+
+    // console.log(e.detail.index)
+    
+    let index = e.detail.index
+
+    // console.log(this.data.tabs)
+    let tabs = this.data.tabs
+
+    tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
+
+      this.setData({
+        tabs
+      })  
+
   },
 
   /**
