@@ -2,7 +2,7 @@
 
 <Tabs aaa = "var aaa value 1233321"
 tabs="{{tabs}}"
-
+binditemChange="handleItemChange"
 >
 
 </Tabs>
