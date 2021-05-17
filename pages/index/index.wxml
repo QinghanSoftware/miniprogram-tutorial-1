@@ -1,5 +1,1 @@
-<view>
-<text class="iconfont icon-icon-test"> 首页</text>
-</view>
-
 <SearchInput></SearchInput>
