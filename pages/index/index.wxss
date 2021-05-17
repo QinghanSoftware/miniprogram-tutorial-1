@@ -1,3 +1,9 @@
-view{
-  color: var(--themeColor);
+.index_swiper swiper {
+ 
+
+}
+.index_swiper swiper image {
+    width: 1200rpx;
+    aspect-ratio: auto 613 / 191;
+  
 }
