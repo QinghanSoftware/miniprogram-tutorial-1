@@ -1,13 +1,10 @@
 <!--pages/demo17/demo17.wxml-->
 
-<Tabs aaa = "var aaa value 1233321"
-tabs="{{tabs}}"
-binditemChange="handleItemChange"
->
+<Tabs aaa = "var aaa value 1233321"tabs="{{tabs}}"binditemChange="handleItemChange">
 
 <block wx:if="{{tabs[0].isActive}}">0</block>
 <block wx:elif="{{tabs[1].isActive}}">1</block>
 <block wx:elif="{{tabs[2].isActive}}">2</block>
-<block wx:else="{{tabs[3].isActive}}">3</block>
-
+<block wx:else>3</block>
 </Tabs>
+
